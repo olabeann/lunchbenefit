@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>직장인 점심값 20% 환급 혜택 완벽 가이드 (2026 최신)</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet">
+<style>
+  :root {
+    --green-deep: #1a6b47;
+    --green-mid: #22a86a;
+    --green-light: #e6f7ef;
+    --green-accent: #2ec778;
+    --green-soft: #d0f0e0;
+    --bg: #f5f8f6;
+    --bg-card: #ffffff;
+    --text-main: #1a2e24;
+    --text-sub: #4a6657;
+    --text-muted: #7a9c89;
+    --border: #d8ece2;
+    --shadow: 0 2px 16px rgba(34,168,106,0.10);
+    --shadow-hover: 0 8px 32px rgba(34,168,106,0.18);
+    --radius: 18px;
+    --radius-sm: 10px;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Pretendard', -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text-main);
+    line-height: 1.7;
+    word-break: keep-all;
+    overflow-x: hidden;
+  }
+
+  /* ── Instagram Banner ── */
+  .insta-banner {
+    background: linear-gradient(90deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    padding: 14px 20px;
+    text-align: center;
+    position: relative;
+  }
+  .insta-banner a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: clamp(13px, 3.5vw, 15px);
+    letter-spacing: -0.01em;
+  }
+  .insta-banner svg { flex-shrink: 0; }
+  .insta-banner .insta-sub {
+    display: block;
+    font-size: clamp(11px, 3vw, 13px);
+    font-weight: 400;
+    opacity: 0.88;
+    margin-top: 2px;
+  }
+
+  /* ── Hero ── */
+  .hero {
+    background: linear-gradient(145deg, #1a6b47 0%, #22a86a 55%, #2ec778 100%);
+    padding: clamp(48px, 10vw, 90px) 20px clamp(56px, 12vw, 100px);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 70% 20%, rgba(255,255,255,0.12) 0%, transparent 60%),
+                radial-gradient(ellipse at 20% 80%, rgba(0,0,0,0.08) 0%, transparent 50%);
+  }
+  .hero-inner { position: relative; max-width: 680px; margin: 0 auto; }
+  .hero-tag {
+    display: inline-block;
+    background: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.35);
+    color: #fff;
+    font-size: clamp(12px, 3vw, 14px);
+    font-weight: 600;
+    padding: 5px 14px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    letter-spacing: 0.03em;
+  }
+  .hero h1 {
+    font-size: clamp(24px, 7vw, 46px);
+    font-weight: 800;
+    color: #fff;
+    line-height: 1.25;
+    letter-spacing: -0.03em;
+    margin-bottom: 14px;
+  }
+  .hero h1 span { color: #b6ffd9; }
+  .hero-desc {
+    font-size: clamp(14px, 3.5vw, 17px);
+    color: rgba(255,255,255,0.85);
+    margin-bottom: 40px;
+  }
+
+  /* ── Hero Cards ── */
+  .hero-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 10px;
+  }
+  @media (max-width: 600px) { .hero-cards { grid-template-columns: 1fr; } }
+  .hero-card {
+    background: rgba(255,255,255,0.97);
+    border-radius: var(--radius);
+    padding: 22px 16px 18px;
+    text-align: center;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+    transition: transform 0.2s;
+  }
+  .hero-card:hover { transform: translateY(-3px); }
+  .hero-card-icon { font-size: 28px; margin-bottom: 8px; }
+  .hero-card-value {
+    font-size: clamp(22px, 5vw, 30px);
+    font-weight: 800;
+    color: var(--green-deep);
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+  }
+  .hero-card-label {
+    font-size: clamp(11px, 2.5vw, 13px);
+    color: var(--text-sub);
+    margin-top: 4px;
+    font-weight: 500;
+  }
+
+  /* ── Section wrapper ── */
+  .section { padding: clamp(40px, 8vw, 72px) 20px; max-width: 900px; margin: 0 auto; }
+  .section-header { margin-bottom: 32px; }
+  .section-eyebrow {
+    font-size: clamp(11px, 2.5vw, 13px);
+    font-weight: 700;
+    color: var(--green-mid);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .section-title {
+    font-size: clamp(20px, 5vw, 30px);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: var(--text-main);
+    line-height: 1.3;
+  }
+
+  /* ── Divider ── */
+  .divider { height: 1px; background: var(--border); max-width: 900px; margin: 0 auto; }
+
+  /* ── Checklist ── */
+  .checklist { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+  .checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 16px 18px;
+    font-size: clamp(14px, 3.5vw, 15px);
+    box-shadow: var(--shadow);
+  }
+  .check-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: var(--green-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .check-icon svg { color: var(--green-deep); }
+  .checklist strong { color: var(--green-deep); }
+
+  /* ── Steps (numbered cards) ── */
+  .steps-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  @media (max-width: 560px) { .steps-grid { grid-template-columns: 1fr; } }
+  .step-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px 22px;
+    box-shadow: var(--shadow);
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 0.25s, transform 0.25s;
+  }
+  .step-card:hover { box-shadow: var(--shadow-hover); transform: translateY(-2px); }
+  .step-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--green-deep), var(--green-accent));
+  }
+  .step-num {
+    font-size: clamp(32px, 8vw, 42px);
+    font-weight: 900;
+    color: var(--green-soft);
+    letter-spacing: -0.05em;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .step-title {
+    font-size: clamp(15px, 3.5vw, 17px);
+    font-weight: 700;
+    color: var(--text-main);
+    margin-bottom: 8px;
+  }
+  .step-desc {
+    font-size: clamp(13px, 3vw, 14px);
+    color: var(--text-sub);
+    line-height: 1.6;
+  }
+  .step-links { margin-top: 12px; display: flex; flex-direction: column; gap: 6px; }
+  .step-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: clamp(12px, 3vw, 13px);
+    color: var(--green-deep);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 12px;
+    background: var(--green-light);
+    border-radius: 8px;
+    min-height: 44px;
+    transition: background 0.18s;
+  }
+  .step-link:hover { background: var(--green-soft); }
+
+  /* ── Warning cards ── */
+  .warning-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 14px;
+  }
+  .warning-card {
+    background: #fff8e6;
+    border: 1px solid #f5d87a;
+    border-left: 4px solid #f0b429;
+    border-radius: var(--radius-sm);
+    padding: 16px 18px;
+    font-size: clamp(13px, 3vw, 14px);
+    color: #5c4300;
+  }
+  .warning-card-title {
+    font-weight: 700;
+    font-size: clamp(14px, 3.2vw, 15px);
+    color: #7a5500;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  /* ── FAQ Accordion ── */
+  .faq-list { display: flex; flex-direction: column; gap: 10px; }
+  .faq-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  .faq-q {
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: left;
+    padding: 18px 20px;
+    cursor: pointer;
+    font-family: 'Pretendard', sans-serif;
+    font-size: clamp(14px, 3.5vw, 15px);
+    font-weight: 700;
+    color: var(--text-main);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    min-height: 56px;
+    transition: background 0.15s;
+    word-break: keep-all;
+  }
+  .faq-q:hover { background: var(--green-light); }
+  .faq-q[aria-expanded="true"] { background: var(--green-light); color: var(--green-deep); }
+  .faq-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--green-light);
+    border-radius: 50%;
+    transition: transform 0.3s, background 0.2s;
+  }
+  .faq-q[aria-expanded="true"] .faq-icon { transform: rotate(180deg); background: var(--green-soft); }
+  .faq-a {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+  }
+  .faq-a-inner {
+    padding: 0 20px 18px;
+    font-size: clamp(13px, 3.2vw, 14px);
+    color: var(--text-sub);
+    line-height: 1.75;
+    border-top: 1px solid var(--border);
+    padding-top: 14px;
+  }
+
+  /* ── Link Buttons ── */
+  .links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 12px;
+  }
+  .link-btn {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 18px 20px;
+    background: var(--bg-card);
+    border: 1.5px solid var(--border);
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    color: var(--text-main);
+    font-weight: 600;
+    font-size: clamp(13px, 3.2vw, 14px);
+    min-height: 60px;
+    box-shadow: var(--shadow);
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  }
+  .link-btn:hover { border-color: var(--green-mid); box-shadow: var(--shadow-hover); transform: translateY(-2px); }
+  .link-btn-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--green-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 20px;
+  }
+  .link-btn-text { flex: 1; }
+  .link-btn-name { display: block; font-weight: 700; }
+  .link-btn-url { display: block; font-size: 11px; color: var(--text-muted); font-weight: 400; margin-top: 2px; }
+  .link-btn-arrow { color: var(--text-muted); }
+
+  /* ── Footer Instagram Banner ── */
+  .insta-footer {
+    background: linear-gradient(135deg, #f09433 0%, #e6683c 20%, #dc2743 40%, #cc2366 70%, #bc1888 100%);
+    padding: clamp(32px, 7vw, 56px) 20px;
+    text-align: center;
+  }
+  .insta-footer-inner { max-width: 480px; margin: 0 auto; }
+  .insta-footer p {
+    color: rgba(255,255,255,0.92);
+    font-size: clamp(13px, 3.5vw, 15px);
+    margin-bottom: 6px;
+  }
+  .insta-footer h2 {
+    font-size: clamp(20px, 5vw, 28px);
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 24px;
+    letter-spacing: -0.03em;
+  }
+  .insta-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #fff;
+    color: #c13584;
+    font-weight: 700;
+    font-size: clamp(14px, 3.5vw, 16px);
+    padding: 14px 28px;
+    border-radius: 100px;
+    text-decoration: none;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+    min-height: 52px;
+  }
+  .insta-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(0,0,0,0.25); }
+
+  /* ── Footer ── */
+  footer {
+    background: var(--text-main);
+    color: rgba(255,255,255,0.45);
+    text-align: center;
+    padding: 24px 20px;
+    font-size: 12px;
+    line-height: 1.8;
+  }
+
+  /* ── Table scroll ── */
+  .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: var(--radius-sm); }
+  table { border-collapse: collapse; width: 100%; min-width: 460px; font-size: clamp(13px, 3vw, 14px); }
+  th {
+    background: var(--green-light);
+    color: var(--green-deep);
+    font-weight: 700;
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 2px solid var(--green-soft);
+  }
+  td {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text-sub);
+    vertical-align: top;
+  }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: var(--green-light); }
+
+  /* ── Animations ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .hero-inner { animation: fadeUp 0.6s ease both; }
+  .hero-card { animation: fadeUp 0.6s ease both; }
+  .hero-card:nth-child(1) { animation-delay: 0.1s; }
+  .hero-card:nth-child(2) { animation-delay: 0.2s; }
+  .hero-card:nth-child(3) { animation-delay: 0.3s; }
+</style>
+</head>
+<body>
+
+<!-- TOP Instagram Banner -->
+<div class="insta-banner">
+  <a href="https://www.instagram.com/startup_tip_" target="_blank" rel="noopener">
+    <svg width="20" height="20" fill="white" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+    <span>더 많은 꿀정보 얻고 싶다면?
+      <span class="insta-sub">@startup_tip_ 팔로우하고 실시간 혜택 받기 →</span>
+    </span>
+  </a>
+</div>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-tag">🍱 2026년 최신 업데이트</div>
+    <h1>직장인 점심값<br><span>20% 환급</span> 완벽 가이드</h1>
+    <p class="hero-desc">고물가 시대, K-패스 카드 하나로 연간 최대 48만원을 돌려받으세요.</p>
+    <div class="hero-cards">
+      <div class="hero-card">
+        <div class="hero-card-icon">💰</div>
+        <div class="hero-card-value">20%</div>
+        <div class="hero-card-label">점심값 환급 비율</div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-icon">📅</div>
+        <div class="hero-card-value">월 4만원</div>
+        <div class="hero-card-label">최대 월 절약 금액</div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-icon">🎁</div>
+        <div class="hero-card-value">연 48만원</div>
+        <div class="hero-card-label">연간 최대 절약액</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 신청 자격 -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-eyebrow">ELIGIBILITY</div>
+    <h2 class="section-title">✅ 신청 자격 및 조건</h2>
+  </div>
+  <ul class="checklist">
+    <li>
+      <span class="check-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 4" stroke="#1a6b47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <span><strong>K-패스 카드 소지:</strong> 신한·국민·삼성·현대·우리·농협·하나·기업·광주·케이뱅크 중 한 곳에서 발급한 K-패스 카드 보유</span>
+    </li>
+    <li>
+      <span class="check-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 4" stroke="#1a6b47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <span><strong>전용 앱 등록 필수:</strong> K-패스 공식 앱 또는 홈페이지에 카드를 등록해야 혜택이 활성화됩니다.</span>
+    </li>
+    <li>
+      <span class="check-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 4" stroke="#1a6b47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <span><strong>전월 실적 30만원 이상:</strong> 카드사별로 상이하나, 일반적으로 전월 실적 30만원 이상 시 점심값 할인 혜택이 활성화됩니다.</span>
+    </li>
+    <li>
+      <span class="check-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 4" stroke="#1a6b47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <span><strong>결제 시간 제한:</strong> 오전 11시 ~ 오후 2시 사이 결제 건에 대해 혜택을 제공하는 카드사가 대부분입니다.</span>
+    </li>
+    <li>
+      <span class="check-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 4" stroke="#1a6b47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <span><strong>대상:</strong> K-패스 카드를 소지하고 전용 앱에 등록한 <strong>직장인 및 청년 누구나</strong> 신청 가능합니다.</span>
+    </li>
+  </ul>
+</div>
+
+<div class="divider"></div>
+
+<!-- 신청 방법 -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-eyebrow">HOW TO APPLY</div>
+    <h2 class="section-title">🛠️ 신청 방법 (4단계)</h2>
+  </div>
+  <div class="steps-grid">
+    <div class="step-card">
+      <div class="step-num">01</div>
+      <div class="step-title">K-패스 카드 발급</div>
+      <div class="step-desc">주로 이용하는 은행이나 카드사에서 'K-패스' 기능이 포함된 카드를 신청하세요. 신용·체크 모두 가능합니다.</div>
+      <div class="step-links">
+        <a href="https://korea-pass.kr/info/card_info.do" target="_blank" rel="noopener" class="step-link">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 1l1.5 4.5H14l-4 2.7 1.5 4.8L7 10.2l-4.5 2.8L4 8.2 0 5.5h5.5z" fill="#1a6b47"/></svg>
+          카드사별 비교 바로가기
+        </a>
+      </div>
+    </div>
+    <div class="step-card">
+      <div class="step-num">02</div>
+      <div class="step-title">K-패스 앱 설치 및 회원가입</div>
+      <div class="step-desc">스토어에서 'K-패스' 앱을 다운로드하고 회원가입을 진행하세요.</div>
+      <div class="step-links">
+        <a href="https://play.google.com/store/apps/details?id=kr.or.kotsa.kpass" target="_blank" rel="noopener" class="step-link">
+          🤖 안드로이드 다운로드
+        </a>
+        <a href="https://apps.apple.com/kr/app/k-%ED%8C%A8%EC%8A%A4/id6477534008" target="_blank" rel="noopener" class="step-link">
+          🍎 아이폰 다운로드
+        </a>
+      </div>
+    </div>
+    <div class="step-card">
+      <div class="step-num">03</div>
+      <div class="step-title">카드 등록 및 지원 대상 확인</div>
+      <div class="step-desc">앱에서 카드를 등록하고, 본인이 아래 중 어디에 해당하는지 확인하세요.</div>
+      <div class="table-wrap" style="margin-top:14px;">
+        <table>
+          <thead>
+            <tr><th>구분</th><th>환급률</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>일반</td><td style="color:var(--green-deep);font-weight:700;">20%</td></tr>
+            <tr><td>청년</td><td style="color:var(--green-deep);font-weight:700;">30%</td></tr>
+            <tr><td>저소득층</td><td style="color:var(--green-deep);font-weight:700;">53%</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="step-card">
+      <div class="step-num">04</div>
+      <div class="step-title">신청 버튼 클릭 (필수!)</div>
+      <div class="step-desc">카드사 앱(신한 SOL페이, KB Pay 등) 내 <strong>'생활 혜택'</strong> 또는 <strong>'직장인 맞춤 혜택'</strong> 메뉴에서 점심값 환급 서비스를 반드시 직접 신청해야 합니다.</div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- 주의사항 -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-eyebrow">CAUTION</div>
+    <h2 class="section-title">⚠️ 반드시 확인하세요!</h2>
+  </div>
+  <div class="warning-grid">
+    <div class="warning-card">
+      <div class="warning-card-title">⛔ 자동 적용 안 됩니다</div>
+      카드를 발급받았다고 해서 자동으로 환급되지 않습니다. 반드시 앱에서 직접 신청해야 합니다.
+    </div>
+    <div class="warning-card">
+      <div class="warning-card-title">🏢 중소기업 우대 혜택</div>
+      일부 지자체(서울시 등)에서는 중소기업 직장인 대상 추가 식비 지원 사업을 운영합니다. 거주지 주민센터에 문의하세요.
+    </div>
+    <div class="warning-card">
+      <div class="warning-card-title">⏰ 예산 소진 시 조기 마감</div>
+      정부 지원 예산에 따라 혜택이 변경될 수 있습니다. 지금 바로 신청하는 것이 가장 유리합니다.
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- FAQ -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-eyebrow">FAQ</div>
+    <h2 class="section-title">💬 자주 묻는 질문</h2>
+  </div>
+  <div class="faq-list">
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">
+        K-패스 카드가 없으면 혜택을 받을 수 없나요?
+        <span class="faq-icon">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 5l4 4 4-4" stroke="#1a6b47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+      </button>
+      <div class="faq-a">
+        <div class="faq-a-inner">네, K-패스 카드 발급이 선행되어야 합니다. 단, 시중 10개 카드사에서 발급 가능하며 신용·체크카드 모두 가능하니 지금 바로 신청해 보세요.</div>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">
+        점심 시간 이외에 결제해도 환급받을 수 있나요?
+        <span class="faq-icon">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 5l4 4 4-4" stroke="#1a6b47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+      </button>
+      <div class="faq-a">
+        <div class="faq-a-inner">대부분의 카드사가 오전 11시 ~ 오후 2시 사이 결제 건에만 혜택을 제공합니다. 이 시간대를 활용해 결제하시는 것이 좋습니다.</div>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">
+        전월 실적이 30만원 미만이면 혜택을 받을 수 없나요?
+        <span class="faq-icon">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 5l4 4 4-4" stroke="#1a6b47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+      </button>
+      <div class="faq-a">
+        <div class="faq-a-inner">카드사마다 실적 기준이 상이하므로, 본인이 발급한 카드사 앱이나 고객센터를 통해 정확한 기준을 확인하시기 바랍니다. 일반적으로 전월 실적 30만원이 기준선입니다.</div>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">
+        교통비 환급과 점심값 환급은 별도인가요?
+        <span class="faq-icon">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 5l4 4 4-4" stroke="#1a6b47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+      </button>
+      <div class="faq-a">
+        <div class="faq-a-inner">네, 다릅니다. K-패스의 교통비 환급(일반 20%, 청년 30%, 저소득층 53%)과 별도로 카드사 '생활 혜택'으로 제공되는 점심값 환급 서비스입니다. 각 카드사 앱에서 개별 신청하셔야 합니다.</div>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">
+        환급은 언제, 어떻게 받나요?
+        <span class="faq-icon">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 5l4 4 4-4" stroke="#1a6b47" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+      </button>
+      <div class="faq-a">
+        <div class="faq-a-inner">카드사에 따라 캐시백 또는 청구 할인 형태로 제공됩니다. 보통 다음달 청구서 또는 포인트/캐시 형태로 적립됩니다. 정확한 지급 시기는 카드사 앱에서 확인하세요.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- 공식 링크 -->
+<div class="section">
+  <div class="section-header">
+    <div class="section-eyebrow">OFFICIAL LINKS</div>
+    <h2 class="section-title">🔗 관련 공식 링크</h2>
+  </div>
+  <div class="links-grid">
+    <a href="https://korea-pass.kr/" target="_blank" rel="noopener" class="link-btn">
+      <span class="link-btn-icon">🚌</span>
+      <span class="link-btn-text">
+        <span class="link-btn-name">K-패스 공식 홈페이지</span>
+        <span class="link-btn-url">korea-pass.kr</span>
+      </span>
+      <span class="link-btn-arrow">→</span>
+    </a>
+    <a href="https://www.bokjiro.go.kr/" target="_blank" rel="noopener" class="link-btn">
+      <span class="link-btn-icon">🏛️</span>
+      <span class="link-btn-text">
+        <span class="link-btn-name">복지로 (정부지원금 통합 조회)</span>
+        <span class="link-btn-url">bokjiro.go.kr</span>
+      </span>
+      <span class="link-btn-arrow">→</span>
+    </a>
+    <a href="https://www.comwel.or.kr/" target="_blank" rel="noopener" class="link-btn">
+      <span class="link-btn-icon">⚒️</span>
+      <span class="link-btn-text">
+        <span class="link-btn-name">근로복지공단</span>
+        <span class="link-btn-url">comwel.or.kr</span>
+      </span>
+      <span class="link-btn-arrow">→</span>
+    </a>
+    <a href="https://www.instagram.com/startup_tip_" target="_blank" rel="noopener" class="link-btn" style="border-color:#e1306c;">
+      <span class="link-btn-icon" style="background:linear-gradient(135deg,#f09433,#dc2743,#bc1888);display:flex;align-items:center;justify-content:center;">
+        <svg width="20" height="20" fill="white" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      </span>
+      <span class="link-btn-text">
+        <span class="link-btn-name" style="color:#c13584;">@startup_tip_ 인스타그램</span>
+        <span class="link-btn-url">더 많은 꿀정보 보기</span>
+      </span>
+      <span class="link-btn-arrow" style="color:#c13584;">→</span>
+    </a>
+  </div>
+</div>
+
+<!-- Bottom Instagram Banner -->
+<div class="insta-footer">
+  <div class="insta-footer-inner">
+    <p>💡 이런 정보, 매주 받고 싶다면?</p>
+    <h2>더 많은 꿀정보 얻고 싶다면?</h2>
+    <a href="https://www.instagram.com/startup_tip_" target="_blank" rel="noopener" class="insta-cta">
+      <svg width="22" height="22" fill="#c13584" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      @startup_tip_ 팔로우하기
+    </a>
+  </div>
+</div>
+
+<footer>
+  <p>본 페이지의 정보는 2026년 기준으로 작성되었으며, 정부 정책 변경에 따라 내용이 달라질 수 있습니다.</p>
+  <p style="margin-top:6px;">정확한 내용은 K-패스 공식 홈페이지 및 각 카드사에 문의하세요.</p>
+</footer>
+
+<script>
+function toggleFaq(btn) {
+  const expanded = btn.getAttribute('aria-expanded') === 'true';
+  // close all
+  document.querySelectorAll('.faq-q').forEach(b => {
+    b.setAttribute('aria-expanded', 'false');
+    b.nextElementSibling.style.maxHeight = null;
+  });
+  // open clicked if it was closed
+  if (!expanded) {
+    btn.setAttribute('aria-expanded', 'true');
+    const panel = btn.nextElementSibling;
+    panel.style.maxHeight = panel.scrollHeight + 'px';
+  }
+}
+</script>
+</body>
+</html>
